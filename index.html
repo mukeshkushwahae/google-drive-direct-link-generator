@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- ===== Charset and Viewport ===== -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- ===== SEO Meta Tags ===== -->
+   <title>Google Drive Direct Link Generator</title>
+   <meta name="description" content="Easily convert your Google Drive shareable links into direct download links with our free Google Drive Direct Link Generator. Fast, secure and user-friendly.">
+   <meta name="keywords" content="Google Drive, direct link generator, download link, shareable link, file sharing tool, direct download, Google Drive tools">
+   <meta name="author" content="Mukesh Kushwaha">
+   <link rel="canonical" href="https://mukeshkushwahae.github.io/google-drive-direct-link-generator/">
+   <!-- ===== Favicon & Icons ===== -->
+   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+   <link rel="shortcut icon" href="./favicon.ico">
+   <!-- ===== Robots and Crawlers ===== -->
+   <meta name="robots" content="index, follow">
+   <meta name="googlebot" content="index, follow">
+   <meta name="bingbot" content="index, follow">
+   <!-- ===== CSS File ===== -->
+   <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+<body>
+   <!-- ===== Google Drive Direct Link Generator Form ===== -->
+   <div class="form-wrapper">
+      <form>
+         <div>
+            <label for="shareUrl" class="form-label">Enter Your Sharing URL:</label>
+            <input type="text" id="shareUrl" class="form-control" placeholder="https://drive.google.com/file/d/5HR...../view?usp=drivesdk" autocomplete="off"/>
+         </div>
+         <div class="button-group">
+            <button type="button" id="generateBtn" class="button">Generate</button>
+            <button type="button" id="copyBtn" class="button">Copy</button>
+            <button type="button" id="clearBtn" class="button">Clear</button>
+         </div>
+         <div id="directUrlHidden" class="hidden">
+            <label for="directUrl" class="form-label">Direct Link:</label>
+            <input type="text" id="directUrl" class="form-control" readonly=""/>
+         </div>
+      </form>
+   </div>
+   <!-- ===== JavaScript File ===== -->
+   <script src="./assets/js/main.min.js"></script>
+</body>
+</html>
